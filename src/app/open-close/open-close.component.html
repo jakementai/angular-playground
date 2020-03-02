@@ -1,0 +1,6 @@
+<h2>Animation Testing</h2>
+
+<div [@openClose]="isOpen ? 'open': 'close'" class="open-close-container" (click)="toggle()">
+    <p>This box is now {{isOpen? 'Open' : 'Closed'}} </p>
+</div>
+
